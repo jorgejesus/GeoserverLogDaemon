@@ -20,3 +20,7 @@ Paths to location of log file, pid etc is located at the end of the script
 
 The stript needs some improvment on the try/except
 
+#Blog - Extra info
+
+https://www.linkedin.com/pulse/article/python-daemon-geoserver-log-apache-logs-insert-mendes-de-jesus/
+
