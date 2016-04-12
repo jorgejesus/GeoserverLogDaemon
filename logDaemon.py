@@ -4,6 +4,7 @@
 #DOCS:
 #http://daemons.readthedocs.org/en/latest/
 #http://www.gavinj.net/2012/06/building-python-daemon-process.html
+#http://stackoverflow.com/questions/157938/hiding-a-password-in-a-python-script
 
 import sys,logging,time,datetime,os,socket
 from daemons.prefab import run
@@ -18,6 +19,7 @@ class LogSocketDaemon(run.RunDaemon):
         self.socketFile=socketFile
         self.logger=logging.getLogger("LogSocketDaemon")
         self.logDBConn=None
+        #netrc file with passwords and logins
         self.netrc=netrc.netrc(netrcFile)
         self.onlyLogGeoserver=True
         #it has to be the same as the Apache log
