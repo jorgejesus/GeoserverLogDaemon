@@ -14,6 +14,9 @@ Bash script that creates the service
 
 #Notes
 
--I use a file, /etc/.netrc that keeps the login and password to the database, you need to create a file for your credencials.
--Paths to location of log file, pid etc is located at the end of the script
--The stript needs some improvment on the try/except
+I use a file, /etc/.netrc that keeps the login and password to the database, you need to create a file for your credencials.
+
+Paths to location of log file, pid etc is located at the end of the script
+
+The stript needs some improvment on the try/except
+
